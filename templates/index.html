@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+
+
+{% block body %}
+<div class="jumbotron text-center">
+    <h3 >Bloğa Hoşgeldiniz</h3>
+    <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis autem nemo eos molestiae fugiat aperiam delectus molestias mollitia obcaecati distinctio, fuga pariatur inventore id odit! Non cupiditate excepturi corporis rerum.
+    Culpa minima facere ullam, quasi necessitatibus provident quia architecto et! Explicabo a minus sint ducimus odit, animi temporibus optio dolore maxime, esse fuga veniam consequatur culpa distinctio beatae porro architecto!
+    Dolore pariatur hic ut blanditiis? Illum, doloremque, fugit et architecto dicta, quo fugiat adipisci vitae ea veritatis temporibus eveniet dolores! Nulla voluptas perspiciatis maiores impedit aspernatur asperiores id, vitae commodi!
+    Ut, exercitationem adipisci, sapiente quisquam, quae aliquam voluptates saepe beatae sit odit illum id ipsa dicta nam at ipsum animi repellendus iste. Maiores debitis dolorum eum obcaecati nihil ex numquam.
+    Provident, tempora quae recusandae ratione sed vero sint et odit asperiores nobis perferendis unde modi. Reiciendis magnam ullam ipsa dignissimos deserunt cum nam nesciunt. Cupiditate accusamus similique alias velit quam.
+    Distinctio, autem a? Soluta molestiae fuga nemo quibusdam libero velit, amet dolor. Quia hic sit consequuntur ab autem perferendis ad ex officiis omnis est? Esse aliquid perspiciatis minima sunt amet?
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dicta laboriosam. Enim, voluptates. Vitae cum vero deleniti magni, quibusdam totam perferendis debitis. Rerum iste rem voluptas non veniam quos neque?
+    Unde doloremque ea labore ratione a, ab voluptate iusto et at vel voluptatum velit iure blanditiis molestias repellat! Quibusdam labore nulla soluta omnis ratione ullam libero earum laborum aperiam ipsum.
+    Earum debitis excepturi, velit sunt quae ea assumenda suscipit neque quam iste veritatis corrupti praesentium deleniti nemo quod, id atque temporibus dolorem itaque aliquam minus? Vel earum quidem eum omnis.
+    Quia impedit reiciendis quae illo laudantium earum fuga atque placeat dolores, quaerat aliquam ipsam debitis in, sit cum id magni dolorum necessitatibus esse expedita animi eius doloribus. Cum, aspernatur reiciendis?
+    Sed qui cum corporis necessitatibus nisi rem aspernatur ut, fuga eaque dolor asperiores nihil numquam temporibus atque fugit recusandae dignissimos accusantium beatae? Ducimus voluptatem perferendis aliquam ex eum, velit expedita!
+
+    </p>
+</div>
+<ul>
+    {% for article in articles %}
+           <li>Article ID:{{article.id}} - Title {{article.title}} - Content {{article.content}}</li>
+    {% endfor %}
+    
+</ul>
+
+{% endblock %}
